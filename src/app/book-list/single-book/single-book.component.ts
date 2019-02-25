@@ -10,9 +10,10 @@ styleUrls: ['./single-book.component.css']
 })
 export class SingleBookComponent implements OnInit {
 
-book: Book;
+  book: Book;
 
-constructor(private route: ActivatedRoute, private booksService: BooksService,
+  constructor(private route: ActivatedRoute,
+              private booksService: BooksService,
               private router: Router) {}
 
   ngOnInit() {
