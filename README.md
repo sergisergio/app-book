@@ -4,24 +4,39 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![image](https://raw.githubusercontent.com/sergisergio/ANGULAR_app-book/master/book.png)
 
-## Code scaffolding
+### Création de components
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* auth/signup
+* auth/signin
+* book-list
+* book-list/single-book
+* book-list/book-form
+* header
+* services/auth
+* services/books
+* services/auth-guard
 
-## Build
+* Ajouter ces services, ainsi que FormsModule, ReactiveFormsModule et HttpClidentModule dans l'array providers d'AppModule (et ajouter les imports en haut).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* intégrer le routing
 
-## Running unit tests
+* créer un dossier models et un fichier book.model.ts
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* installer bootstrap
 
-## Running end-to-end tests
+* lancer le serveur
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* préparer HeaderComponent avec les RouterLink et app-component qui l'intègre avec router-outlet.
 
-## Further help
+* intégrer firebase
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* AuthService pour gérer l'authentification
+
+* Gérer la base de données, l'inscription, la connexion, la déconnexion et la gestion des livres.
+
+* Storage pour ajouter un livre.
+
+* Méthode pour déployer l'application.
+
